@@ -1,0 +1,163 @@
+= This is an ASCIIDoc title & example
+:fedpkg: https://apps.fedoraproject.org/packages/asciidoc
+:toc2:
+:numbered:
+
+[plantuml, target="sequence-diagram", format="png"]
+----
+@startuml
+!include plantUMLC4.puml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+@enduml
+----
+
+----
+def hello_world():
+    print("Hello, world from a code block without a language specified!")
+----
+
+[source,python]
+----
+def hello_world():
+    print("Hello, world from a code block with language specified!")
+----
+
+Roses are red, +
+Violets are blue.
+
+ALERT: Admonition paragraphs call attention to special words of advice.
+
+I can't believe it, we *won*!
+
+(C) Copyright
+
+* Milk
+* Eggs
+* Bread
+* Bananas
+
+.Parts of an atom
+. Protons
+. Electrons
+. Neutrons
+
+Lists tend to fuse together
+.Don't do this:
+* Apples
+* Oranges
+* Bananas
+//^
+* Walnuts
+* Almonds
+* Cashews
+
+.Do this instead:
+* Apples
+* Oranges
+* Bananas
+
+//^
+
+* Walnuts
+* Almonds
+* Cashews
+
+CPU:: The brain of the computer.
+Hard drive:: Permanent storage for operating system and/or user files.
+RAM:: Temporarily stores information the CPU uses during operation.
+Keyboard:: Used to enter text or control items on the screen.
+Mouse:: Used to point to and select items on your computer screen.
+Monitor:: Displays information in visual form using text and graphics.
+
+http://asciidoc.org[AsciiDoc, window="_blank"] is a lightweight markup language.
+
+link:text.ad[Editing with Live Preview]
+
+link:text.ad/#livereload[LiveReload]
+
+The section <<content-is-king>> covers paragraphs in AsciiDoc.
+
+Click image:defender_rocket.png[title="Rocket"] when you need to take off.
+
+image::defender_rocket.png[Sunset,200,100]
+
+image::drawio_Diagram_svg.svg[SVG,200,100]
+
+video::media/images/videoExample.mov[width=200,options="nocontrols,autoplay"]
+
+Information about the AsciiDoc package in Fedora is found at {fedpkg}.
+
+[sidebar]
+.Title of the Sidebar
+--
+This is a sidebar block. It's a great place to add information that is related to but distinct from the main content.
+
+You can include:
+
+- Additional details
+- Explanatory text
+- Warnings or important notes
+
+Sidebars are typically styled differently from the main text to stand out.
+
+[source,python]
+----
+# Example Python code snippet
+print("Sidebar example in AsciiDoc")
+----
+
+End of sidebar content.
+--
+
+[cols="2,3,5", options="header"]
+|===
+|Name |Group |Description
+|Firefox
+|Web Browser
+|Mozilla Firefox is an open-source web browser.
+It's designed for standards compliance,
+performance and portability.
+|Ruby
+|Programming Language
+|A programmer's best friend.
+...
+|===
+
+
+----
+This is an example of a _listing block_.
+The content inside is rendered as <pre> text.
+----
+
+[source,python]
+def hello_world():
+    print("Hello, world!")
+
+[source,python]
+----
+def hello_world():
+    print("Hello, world!")
+----
+
+[source,ruby]
+----
+require 'asciidoctor' <1>
+puts Asciidoctor.render_file('sample.adoc', :header_footer => true) <2>
+----
+\<1> Imports the library
+\<2> Reads, parses and renders the file
+
+
+
+Gettysburg Address
+[[gettysburg]]
+[quote, Abraham Lincoln, Soldiers' National Cemetery Dedication]
+____
+Four score and seven years ago our fathers brought forth
+
+++++
+<video poster="images/movie-reel.png">
+ <source src="videos/writing-zen.webm" type="video/webm">
+</video>
+++++
