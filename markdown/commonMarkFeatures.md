@@ -90,7 +90,7 @@ Scroll down to test jumping to a distant heading.
 
 ---
 
-# (Spacer Section)
+# Spacer Section
 Lots of blank content below — this is intentional.
 
 Paragraph 1  
@@ -106,7 +106,7 @@ Paragraph 10
 
 ---
 
-## TARGET SECTION {#target-section}
+## TARGET SECTION
 
 🎯 **You should jump here.**  
 Clicking the link above should scroll you to this section.
