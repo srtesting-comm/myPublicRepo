@@ -37,7 +37,7 @@ user@example.com
 
 ---
 
-# 4. Heading IDs (idForHeadings)
+# 4. Heading IDs (HeadingAnchorExtension)
 
 ## Auto-Generated Heading ID Example
 Scroll down to test jumping to a distant heading.
