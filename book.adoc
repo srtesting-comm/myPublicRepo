@@ -1,1 +1,6 @@
+= Book
+:doctype: book
+
+This is a book.
+
 include::sections/section-1.adoc[]
