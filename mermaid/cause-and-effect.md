@@ -67,25 +67,7 @@ mindmap
       Usual Cause D
 ```
 
-## MVPS: IT Project Causes
-```mermaid
-mindmap
-root{{IT Project Problem}}
-  (Material<br/>Hardware/Software)
-  (Vendors)
-  (People)
-  (Systems)
-```
 
-## MCPS: Software Development Project Causes
-```mermaid
-mindmap
-root{{Software Development<br/>Project Problem}}
-  (Method)
-  (Code)
-  (People)
-  (Systems)
-```
 
 ## Marketing Common Causes
 ```mermaid
