@@ -4,3 +4,5 @@
 This is a book.
 
 include::sections/section-1.adoc[]
+
+include::exampleAscii.adoc[]
