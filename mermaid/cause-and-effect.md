@@ -67,7 +67,7 @@ mindmap
       Usual Cause D
 ```
 
-## MVPS: IT Project Causes
+## MVPS IT Project Causes
 ```mermaid
 mindmap
 root{{IT Project Problem}}
@@ -77,7 +77,7 @@ root{{IT Project Problem}}
   (Systems)
 ```
 
-## MCPS: Software Development Project Causes
+## MCPS Software Development Project Causes
 ```mermaid
 mindmap
 root{{Software Development<br/>Project Problem}}
