@@ -19,3 +19,7 @@ flowchart TD
   B -- "No<br/><span style='color:red'>Error</span>" --> D["Show message<br/><u>Try again</u>"]
   D --> A
 ```
+
+```mermaid
+<script>alert("EVIL");</script>
+```
