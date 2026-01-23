@@ -6,4 +6,4 @@ Author Name
 === Section Level 2
 ==== Section Level 3
 
-include::asciidoc/grandchild.adoc[]
+include::asciidoc/example.adoc[]
