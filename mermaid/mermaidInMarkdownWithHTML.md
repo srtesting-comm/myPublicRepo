@@ -20,6 +20,3 @@ flowchart TD
   D --> A
 ```
 
-```mermaid
-<script>alert("EVIL");</script>
-```
