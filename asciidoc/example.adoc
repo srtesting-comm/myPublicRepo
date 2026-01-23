@@ -12,6 +12,8 @@ Bob --> Alice: Authentication Response
 @enduml
 ----
 
+include::../exampleAscii.adoc[]
+
 ----
 def hello_world():
     print("Hello, world from a code block without a language specified!")
