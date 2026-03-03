@@ -1,0 +1,4 @@
+@startuml
+!include PlantUML_header.puml
+Alice -> Bob: Hello
+@enduml
