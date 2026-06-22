@@ -1,5 +1,5 @@
 @startuml
-!include <C4/C4_Container>
+
 
 Person(personAlias, "Label", "Optional Description")
 Container(containerAlias, "Label", "Technology", "Optional Description")
