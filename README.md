@@ -1,4 +1,4 @@
-# mypublicrepo
+# My Public Repo
 
 ## Images
 
