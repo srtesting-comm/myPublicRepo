@@ -1,0 +1,14 @@
+= My Document
+:toc:
+
+== Introduction
+
+This is the introduction.
+
+== Installation
+
+Install the application.
+
+== Usage
+
+Run the application.
