@@ -89,6 +89,7 @@ video::media/images/videoExample.mov[width=200,options="nocontrols,autoplay"]
 Information about the AsciiDoc package in Fedora is found at {fedpkg}.
 
 Images with spaces
+
 image::../image with spaces.png[Spaces]
 
 [sidebar]
